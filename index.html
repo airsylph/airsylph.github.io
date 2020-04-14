@@ -173,6 +173,10 @@ Error message and password prompt
 
 <li>$:/state/tab--1963855381</li>
 
+<li>$:/state/tab--86143343</li>
+
+<li>$:/state/tab-1342078386</li>
+
 <li>$:/state/tab-1459654621</li>
 
 <li>$:/state/tab-1749438307</li>
@@ -187,7 +191,11 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary</li>
+
 <li>$:/theme</li>
+
+<li>$:/themes/tiddlywiki/centralised</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
@@ -228,8 +236,8 @@ Error message and password prompt
 <div created="20200413131041602" modified="20200413131041602" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20200413152831231" modified="20200413152831231" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
-<pre>show</pre>
+<div created="20200413152831231" modified="20200414003524808" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
+<pre>hide</pre>
 </div>
 <div created="20200413131026841" modified="20200413131027640" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
 <pre>hide</pre>
@@ -9459,11 +9467,17 @@ GettingStarted
 <div created="20200413151800575" modified="20200413151844134" title="$:/state/tab--1963855381">
 <pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
+<div created="20200414005306265" modified="20200414005308921" title="$:/state/tab--86143343">
+<pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
+</div>
+<div created="20200414005328201" modified="20200414005346489" title="$:/state/tab-1342078386">
+<pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
+</div>
 <div created="20200413152727415" modified="20200413152727415" title="$:/state/tab-1459654621">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
 </div>
-<div created="20200413124114056" modified="20200413152146591" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Settings</pre>
+<div created="20200413124114056" modified="20200414003528056" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
 <div created="20200413124116208" modified="20200413124116208" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -9471,10 +9485,10 @@ GettingStarted
 <div created="20200414003256968" modified="20200414003257904" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200413124328384" modified="20200414003300640" title="$:/state/tab/sidebar--595412856">
-<pre>Contents</pre>
+<div created="20200413124328384" modified="20200414003522848" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div list="[[What to do to set up this wiki]] GettingStarted" title="$:/StoryList">
+<div created="20200414003521305" list="$:/ControlPanel [[What to do to set up this wiki]] GettingStarted" modified="20200414003521305" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9535,8 +9549,22 @@ GettingStarted
     }
 }</pre>
 </div>
+<div created="20200414005322923" modified="20200414005434592" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
+<pre></pre>
+</div>
 <div created="20200413124347985" modified="20200413151835367" title="$:/theme">
 <pre>$:/themes/tiddlywiki/snowwhite</pre>
+</div>
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.21">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tiddlywiki/centralised/styles.tid&quot;: {
+            &quot;title&quot;: &quot;$:/themes/tiddlywiki/centralised/styles.tid&quot;,
+            &quot;tags&quot;: &quot;[[$:/tags/Stylesheet]]&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\n@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {\n\n\thtml .tc-page-container {\n\t\ttext-align: center;\n\t}\n\n\thtml .tc-story-river {\n\t\tposition: relative;\n\t\twidth: 770px;\n\t\tpadding: 42px;\n\t\tmargin: 0 auto;\n\t\ttext-align: left;\n\t}\n\n\thtml .tc-sidebar-scrollable {\n\t\ttext-align: left;\n\t\tleft: 50%;\n\t\tright: 0;\n\t\tmargin-left: 343px;\n\t}\n}\n&quot;
+        }
+    }
+}</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.21">
 <pre>{
@@ -9668,9 +9696,9 @@ GettingStarted
 <div created="20200413151611894" list-before="$:/core/ui/SideBar/Open" modified="20200413151741992" tags="$:/tags/SideBar" title="Contents">
 <pre></pre>
 </div>
-<div created="20200413124743329" modified="20200414003338161" tags="" title="What to do to set up this wiki" type="text/vnd.tiddlywiki">
+<div created="20200413124743329" modified="20200414003357217" tags="" title="What to do to set up this wiki" type="text/vnd.tiddlywiki">
 <pre>* How to include automatic backlinks
- * It seems like there's a info tab with all the backlinks there!! Should I place that IN the tiddler or leave it as info?
+* * It seems like there's a info tab with all the backlinks there!! Should I place that IN the tiddler or leave it as info?
 * How to even link from tiddler to tiddler
 * How to include tags
 * How to automatically come up with an ID (?)
